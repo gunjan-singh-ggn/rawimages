@@ -1,8 +1,8 @@
-name: hello-world
+name: print-hello-world
 on: push
 jobs:
-  my-job:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      - name: my-step
-        run: echo "Hello World!"
+      - name: step1
+        run: echo "Hello programmer!"
